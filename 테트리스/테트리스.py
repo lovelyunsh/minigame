@@ -52,7 +52,7 @@ for i in range(18) :
 def makeusr_rock():
     global color,shape
     color = random.randint(0,len(wallc)-1)
-    shape = random.randint(0,7)
+    shape = random.randint(0,6)
     rock_shape()
     
 
